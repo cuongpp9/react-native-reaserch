@@ -41,8 +41,8 @@ export default styles = StyleSheet.create({
 			paddingRight: 10,
 	},
 	searchIcon: {
-			width: 18,
-			height: 18,
+			width: 25,
+			height: 25,
 			marginLeft: 10,
 	},
 	input: {
@@ -50,6 +50,6 @@ export default styles = StyleSheet.create({
 			paddingTop: 10,
 			backgroundColor: 'rgba(255, 255, 255,0)',
 			color: '#424242',
-			fontSize: 8
+			fontSize: 10
 	},
 });

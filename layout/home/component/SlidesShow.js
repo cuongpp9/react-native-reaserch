@@ -7,7 +7,7 @@ type Props = {};
 export default class SlidesShow extends Component<Props> {
 	render() {
 		return (
-			<Swiper style={styles.wrapper} height={100}
+			<Swiper style={styles.wrapper} height={170}
 				autoplay={true}
 				dot={<View style={{ backgroundColor: '#F8F8FF', width: 8, height: 8, borderRadius: 4, marginLeft: 3, marginRight: 3, marginTop: 3, marginBottom: 3 }} />}
 				activeDot={<View style={{ backgroundColor: 'red', width: 8, height: 8, borderRadius: 5, marginLeft: 3, marginRight: 3, marginTop: 3, marginBottom: 3 }} />}

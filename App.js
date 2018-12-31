@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import { StatusBar } from 'react-native';
 import Splashscreen from 'react-native-splash-screen';
 import Home from './layout/home/Index';
-// import Test2 from './layout/home/Test2';
-import {YellowBox} from 'react-native';
-YellowBox.ignoreWarnings(['Warning: ...']);
+import store from './redux/store';
+import {Provider} from 'react-redux';
 
 type Props = {};
 export default class App extends Component<Props> {
@@ -17,7 +16,9 @@ export default class App extends Component<Props> {
 
 	render() {
 		return (
-			<Home/>
+			<Provider store={ store }>
+				<Home/>
+			</Provider>
 		);
 	}
 }
